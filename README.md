@@ -1,9 +1,7 @@
-# JhavaFx
-Why swing when you can jhava fx?
+# Hack King's 4.0: Hackathon
 
-## PPA: Assignment 4
-Team Members:
+# Team Members:
+- Oluwafemi Oladipo
 - Julia Jakubiak
 - Szymon Sudol
 - Aleksandar Bonin
-- Oluwafemi Oladipo
