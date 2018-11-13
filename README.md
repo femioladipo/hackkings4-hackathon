@@ -1,6 +1,6 @@
 # Hack King's 4.0: Hackathon
 
-## Team JhavaFX:
+## Team SuperMapper:
 Memebers: Oluwafemi Oladipo (myself); Julia Jakubiak; Szymon Sudol; Aleksandar Bonin
 
 ## Brief
