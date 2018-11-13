@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+-->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.*?>
+<?import util.Map?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:id="root" prefHeight="541.0" prefWidth="957.0"
+            style="-fx-background-color: rgba(0,0,0,0);" xmlns="http://javafx.com/javafx/8.0.162-ea"
+            fx:controller="view.MapView">
+
+    <children>
+        <Map fx:id="map" clipMap="true" prefHeight="473.0" prefWidth="843.0" AnchorPane.bottomAnchor="0.0"
+             AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        </Map>
+        <Button fx:id="up" alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="14.0"
+                mnemonicParsing="false" text="+" textAlignment="CENTER" textOverrun="CENTER_WORD_ELLIPSIS"/>
+
+        <Button fx:id="down" alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="47.0"
+                mnemonicParsing="false" style="-fx-min-width: 29;" text="-" textAlignment="CENTER"
+                textOverrun="CENTER_WORD_ELLIPSIS"/>
+        <Button fx:id="circle" alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="80.0"
+                mnemonicParsing="false" style="-fx-min-width: 29;" text="o" textAlignment="CENTER"
+                textOverrun="CENTER_WORD_ELLIPSIS"/>
+
+    </children>
+
+
+</AnchorPane>
