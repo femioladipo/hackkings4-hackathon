@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:id="statisticsView" alignment="CENTER"
+      xmlns="http://javafx.com/javafx/8.0.162-ea" fx:controller="view.StatisticsView">
+    <children>
+
+        <BorderPane fx:id="statistic1">
+            <left>
+                <Button mnemonicParsing="false" onAction="#previous" prefHeight="200.0"
+                        style="-fx-background-radius: 0px; -fx-border-radius: 0px;" text="&lt;" userData="0"
+                        BorderPane.alignment="CENTER"/>
+            </left>
+            <right>
+                <Button mnemonicParsing="false" onAction="#next" prefHeight="200.0" style="-fx-background-radius: 0px;"
+                        text="&gt;" userData="0" BorderPane.alignment="CENTER"/>
+            </right>
+            <center>
+                <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER"/>
+            </center>
+        </BorderPane>
+
+        <BorderPane fx:id="statistic2">
+            <left>
+                <Button mnemonicParsing="false" onAction="#previous" prefHeight="200.0"
+                        style="-fx-background-radius: 0px; -fx-border-radius: 0px;" text="&lt;" userData="1"
+                        BorderPane.alignment="CENTER"/>
+            </left>
+            <right>
+                <Button mnemonicParsing="false" onAction="#next" prefHeight="200.0" style="-fx-background-radius: 0px;"
+                        text="&gt;" userData="1" BorderPane.alignment="CENTER"/>
+            </right>
+            <center>
+                <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER"/>
+            </center>
+        </BorderPane>
+
+        <BorderPane fx:id="statistic3">
+            <left>
+                <Button mnemonicParsing="false" onAction="#previous" prefHeight="200.0"
+                        style="-fx-background-radius: 0px; -fx-border-radius: 0px;" text="&lt;" userData="2"
+                        BorderPane.alignment="CENTER"/>
+            </left>
+            <right>
+                <Button mnemonicParsing="false" onAction="#next" prefHeight="200.0" style="-fx-background-radius: 0px;"
+                        text="&gt;" userData="2" BorderPane.alignment="CENTER"/>
+            </right>
+            <center>
+                <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER"/>
+            </center>
+        </BorderPane>
+
+        <BorderPane fx:id="statistic4">
+            <left>
+                <Button mnemonicParsing="false" onAction="#previous" prefHeight="200.0"
+                        style="-fx-background-radius: 0px; -fx-border-radius: 0px;" text="&lt;" userData="3"
+                        BorderPane.alignment="CENTER"/>
+            </left>
+            <right>
+                <Button mnemonicParsing="false" onAction="#next" prefHeight="200.0" style="-fx-background-radius: 0px;"
+                        text="&gt;" userData="3" BorderPane.alignment="CENTER"/>
+            </right>
+            <center>
+                <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER"/>
+            </center>
+        </BorderPane>
+
+    </children>
+</VBox>
